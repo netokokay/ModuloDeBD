@@ -1,0 +1,13 @@
+O desenvolvimento de um projeto de banco de dados passa por fases que são de grande importância para sua implementação. 
+Descreva as etapas desse processo.
+
+Para elaborar um projeto de banco de dados, passamos por 4 étapas: Análise de requisitos, Modelo conceitual, Modelo lógico e Modelo físico.
+
+1. Análise de requisitos é a etapa onde vamos fazer entrevistas e reuniões com o cliente para discutir os processos do sistemas.
+   Através dessa etapa deixaremos claro as regras de negócio, o que precisa e o que não precisa ser armazenado no banco de dados entre outras funções.
+   
+2. Modelo conceitual é onde iremos definir, através das informações obtidas na etapa anterior, os agentes e os relacionamentos entre eles!
+
+3. Modelo lógico é a etapa que vamos definir os atributos das entidades e o tamanho dos campos que vão armazenar as informações.
+
+4. Modelo físico é a última etapa onde o desenvolvedor começa a codificar o banco de dados e construir as entidades.
