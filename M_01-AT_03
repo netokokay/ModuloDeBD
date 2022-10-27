@@ -1,0 +1,8 @@
+A normalização de dados é um processo realizado dentro das tabelas para evitar anomalias. Com base no conteúdo e nos links sugeridos do hipertexto 3 
+do banco de dados I, descreva o processo de normalização citando as formas normais apresentadas.
+
+A normalização é o processo para organizar os dados em um banco de dados (Inclui também a criação de tabelas e o estabelecimento de relações entre elas)
+Durante a normalização passamos por etapas, a primeira etapa eliminamos grupos repetidos em tabelas individuais, criamos uma tabela separada para cada conjunto de dados
+relacionados e identificamos cada conjunto de dados relacionados com uma chave primária. Na segunda etapa criamos tabelas separadas para conjuntos de valores que se 
+aplicam a vários registros e relacionamos essas tabelas com uma chave estrangeira. Na terceira etapa eliminamos campos que não dependem da chave. Em relação a quarta e 
+quinta etapa raramente são consideradas no design prático, ignorar essas regras não deve afetar a funcionalidade!
