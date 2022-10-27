@@ -1,0 +1,5 @@
+Relacionais:
+MySQL, OracleDB, SQLServer, MariaDB, PostgreSQL entre outros.
+
+Não relacionais:
+Redis, Memcached, Cassandra, Hbase, Amazon DynamoDB, Neo4j, MongoDB entre outros.
