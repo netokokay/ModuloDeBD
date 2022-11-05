@@ -1,0 +1,31 @@
+// CRIANDO TABELA E ALIMENTANDO
+
+CREATE TABLE Copos
+(
+	id	VARCHAR(4) PRIMARY KEY,
+	Marca	VARCHAR(50),
+  Cor VARCHAR(20),
+	Estoque	INT NOT NULL DEFAULT 0
+);
+
+INSERT INTO Produtos VALUES ('0001', 'Stanley', 'Vermelho', 50);
+INSERT INTO Produtos VALUES ('0002', 'Camelbak', 'Preto', 100);
+INSERT INTO Produtos VALUES ('0003', 'Stanley', 'Branco', 100);
+
+CREATE TABLE ItensVenda
+(
+	Venda		INT,
+	Produto	VARCHAR(4),
+	Quantidade	INT
+);
+
+//CRIANDO TRIGGER PARA ATUALIZAR MEU ESTOQUE A CADA VENDA
+
+CREATE TRIGGER Atualizar_Estoque AFTER INSERT
+ON ItensVenda
+FOR EACH ROW
+BEGIN
+	UPDATE Copos SET Estoque = Estoque - NEW.Quantidade
+WHERE id = NEW.Produto;
+
+END
