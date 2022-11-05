@@ -1,0 +1,10 @@
+USE SuperMercado
+GO
+CREATE PROCEDURE ListarVendas
+@CampoBusca VARCHAR (20)
+AS
+SELECT Data, Produto, Quantidade
+FROM ItensVendas
+WHERE Data = @CampoBusca
+
+EXECUTE ListarVendas '11/09/2021'
