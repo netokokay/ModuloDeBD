@@ -1,0 +1,12 @@
+CREATE OR REPLACE FUNCTION somarClientesDiario
+  RETURN INT(4);
+ IS
+  totalClientes INT(4);
+BEGIN
+SELECT count(*) INTO totalClientes
+ FROM clientes WHERE Data = '12/12/2012';
+ RETURN totalClientes;
+END;
+/
+
+total_hoje := somarClientesDiario;
