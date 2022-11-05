@@ -1,0 +1,16 @@
+1. Confidencialidade
+  No primeiro pilar, temos a confiabilidade! Este pilar é onde iremos criar níveis de acesso aos dados, onde somente funcionários autorizados serão permitido o acesso.
+  É também muito importante conscientizar e treinar os funcionários que terão os níveis de acesso mais avançado.
+
+2. Integridade
+  Neste pilar iremos evitar prejuízos com perdas de informações. Sabendo que apenas pessoas autorizadas tem acesso avançados para manipular os dados, sempre ocorre
+  acidentes de trabalho e pode acontecer de alguém apagar um dado muito importante da empresa; Afim de evitar esta perda, iremos manter a integridade dos arquivos 
+  por meio de backups, controle de versão entre outras.
+
+3. Disponibilidade
+  É essencial que os arquivos possam ser consultados a qualquer momento através do sistema, com isso temos o pilar da disponibilidade. Serviços para manter essa
+  disponibilidade contínua é considerado uma manutenção ágil.
+  
+4. Autenticidade
+  Confirmar que não haja manipulação desses dados sem permissão ou até intervenções externas de terceiros passando-se por colaboradores. Os dados precisam de processos
+  que identifica quem fez a alteração de dados.
